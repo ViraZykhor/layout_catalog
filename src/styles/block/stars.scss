@@ -5,12 +5,12 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  gap: 4px;
+  gap: $stars-gap;
 
   &__star {
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
+    width: $star-size;
+    height: $star-size;
+    line-height: $star-size;
     display: inline-block;
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;
