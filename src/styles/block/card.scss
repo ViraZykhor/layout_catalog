@@ -4,7 +4,7 @@
 .product-card {
   @include m.flex-center;
 
-  width: $card-width;
+  width: v.$card-width;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
